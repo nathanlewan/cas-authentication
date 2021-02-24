@@ -1,5 +1,5 @@
 {
-  "name": "cas-authentication",
+  "name": "express-cas-middleware",
   "version": "0.0.1",
   "description": "A CAS authentication library designed to be used as middleware for an Express server.",
   "keywords": [
@@ -12,16 +12,16 @@
     "middleware",
     "express"
   ],
-  "homepage": "https://github.com/nathanlewan/cas-authentication",
+  "homepage": "https://github.com/nathanlewan/express-cas-middleware",
   "bugs": {
-    "url": "https://github.com/nathanlewan/cas-authentication/issues"
+    "url": "https://github.com/nathanlewan/express-cas-middleware/issues"
   },
   "license": "MIT",
   "author": "Nathan Lewan <nathanlewan@gmail.com>",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathanlewan/cas-authentication.git"
+    "url": "https://github.com/nathanlewan/express-cas-middleware.git"
   },
   "dependencies": {
     "xml2js": "^0.4.8"
