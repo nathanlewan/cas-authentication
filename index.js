@@ -122,11 +122,11 @@ function CASAuthentication(options) {
                             if (attr.attributevalue instanceof Array){
                                 thisAttrValue = [];
                                 attr.attributevalue.forEach(function(v) {
-                                    thisAttrValue.push(v._);
+                                    thisAttrValue.push(v);
                                 });
                             }
                             else {
-                                thisAttrValue = attr.attributevalue._;
+                                thisAttrValue = attr.attributevalue;
                             }
                             attributes[ attr.$.AttributeName ] = thisAttrValue;
                         });
